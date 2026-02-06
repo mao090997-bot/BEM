@@ -33,3 +33,125 @@
   color: blue;
  
 }
+
+.house {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px dashed red;
+  overflow: hidden;
+}
+
+.cocina {
+  width: 70%;
+  
+  background: beige;
+  text-align: center;
+  margin: 10px auto;
+  padding: 30px;
+  border: 2px rgb(26, 26, 141);
+  border-radius: 10px;
+  box-shadow: 12px 14px 12px rgba(204, 120, 120, 0.5);
+}
+
+.cocina__title {
+  line-height: 1.5;
+  color: rgb(79, 9, 231);
+  margin: 10px;
+  
+}
+
+.cocina__parrafo {
+  width: 70%;
+  margin: 10px auto;
+  padding: 5px;
+  border: 2px dashed red;
+  border-radius: 10px;
+  box-shadow: 4px 4px 2px rgba(204, 120, 120, 0.5);
+}
+.cocina__parrafo--modificador {
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(60, 26, 153);
+  border: 1px dotted red;
+  box-shadow: 4px 4px 2px rgba(204, 120, 120, 0.5);
+  color: wheat;
+  border-radius: 10px;
+}
+
+.habitacion {
+
+  width: 80%;
+  background: pink;
+  margin: 30px auto;
+  padding: 20px;
+  border: ridge;
+  border-radius: 10px;
+  background-image: url(imagenes/guillaume-dhalluin-yOG6YRH7W1E-unsplash.jpg);
+  box-shadow: 4px 4px 2px rgba(204, 120, 120, 0.5);
+  background-size: cover;
+}
+
+.habitacion__lampara {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.habitacion__almohada {
+  color: yellow;
+  font-weight:200;
+  font-style: italic;
+}
+
+.habitacion__almohada--sueño {
+  font-size: 45px;
+  background: rgb(78, 46, 194);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 12px 12px 12px rgba(160, 33, 33, 0.8);
+}
+
+.sala {
+  width: 80%;
+  
+  padding: 10px;
+  margin: 10px auto;
+  background: linear-gradient(to right, red, blue);
+  overflow: hidden;
+  box-shadow: 12px 12px 12px rgba(170, 29, 29, 0.8);
+  
+}
+
+.sala__televisor {
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  box-shadow: 12px 12px 12px rgba(170, 29, 29, 0.8);
+}
+.fondo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.sala__sofa--cojin {
+  display: block;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 12px 12px 12px rgba(170, 29, 29, 0.8);
+}
+
