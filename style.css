@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.closet {
+  width: 80%;
+  margin: 20px auto;
+  border: 3px double crimson;
+  padding: 40px;
+  background: #878729;
+  border-radius: 15px;
+  box-shadow: 8px 8px 9px rgba(91, 96, 29, 0.6)
+}
+
+.closet__shoes {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+ 
+  background-image:   linear-gradient(to right, rgba(20, 181, 22, 0.7), rgba(0,0,0,0)), url(imagenes/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+  background: linear-gradient();
+  background-position: center;
+  background-size: cover;
+  box-shadow: -3px 5px 12px rgba(233, 199, 4, 0.9);
+  border-radius: 10px;
+
+}
+
+.closet__shoes--item {
+  color: blue;
+ 
+}
